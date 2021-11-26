@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    min-width:100vh; 
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'n n n n'
+    'c2 c2 c2 c2';
+}
+.con2{
+    grid-area: c2;
+}
+.navbar{
+    background-color: rgb(46, 44, 44);
+    min-width:100vh; 
+    display: flex;
+    height: 3.5rem;
+    grid-area: n;
+    justify-content:space-between;
+}
+.navbar img{
+    margin: auto;
+    margin-left:0.3%;
+   height: 3rem;
+   width: 4rem;
+}
+.list{
+min-width: 25%;
+    margin-right: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.list li{
+    color: white;
+    list-style: none;
+    font-size: 1.6vw;
+    margin:auto ;
+    cursor: pointer;
+}
+.list li:hover{
+color: whitesmoke;
+}
