@@ -1,0 +1,11 @@
+@media screen and (max-width:752px) {
+    .list{
+        width: 51%;
+               
+            }
+            .list li{
+            
+         font-size: 2.8vw;
+        
+            }
+}
